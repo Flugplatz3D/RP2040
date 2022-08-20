@@ -277,7 +277,7 @@ void loop() {
     digitalWrite(LED, !digitalRead(LED));
   }
   gap = millis() - parcial;
-  while (gap < 50)
+  while (gap < 60)
   {
     gap = millis() - parcial;
   }
